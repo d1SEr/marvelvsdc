@@ -1,0 +1,69 @@
+header{
+    background: #dfd4da;
+    color: cyan;
+    top:0;
+    width: 100vw;
+    height: 5vh;
+    position: sticky;
+    left: 0;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    position: relative;
+    float: right;
+    font-size: 2vw;
+    /*margin: top, right,bottom, left*/
+    margin: 1.2vh 10pt 0 0 ;
+}
+img.logo{
+ display: inline;
+ object-fit:contain ;
+ max-width: 100px;
+ max-height: 5vh;
+ 
+ height: auto;
+ float: left ;
+}
+a:visited{
+    color: black;
+}
+a:link{
+    color:aqua
+}
+.versus{
+    position: relative;
+    margin-top: 0vh;
+    width: 100vw;
+    height: 40vh;
+    max-height: 400px;
+}
+img.vers{
+    object-fit: contain;
+    display: inline;
+    max-height: 80%;
+    max-width: 33%;
+    margin: 0 8vw 0 8vw;
+    justify-content: center;
+    text-align: center;
+}
+.text{
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.versus_txt{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 25%;
+
+    display: inline;
+}
+img.tableImg{
+    max-height: 50%;
+    max-width: 90%;
+}
+p.tableText{
+    color: cadetblue;
+}
